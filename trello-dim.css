@@ -1,0 +1,385 @@
+@-moz-document domain("trello.com") {
+    /*.tabbed-pane-nav-item-button,
+        .checklist-new-item.focus .checklist-new-item-text,
+        .checklist-new-item.focus .checklist-new-item-text:focus,
+        .checklist-new-item.focus .checklist-new-item-text:hover,
+        .compact-board-tile-link-text-sub-name,
+        .pop-over-header-title,
+        .dialog-close-button,
+        body,
+        button,
+        html,
+        input,
+        select,*/
+    textarea,
+    a,
+    .card-detail-item input[type=text].card-detail-badge:focus,
+    .show-more:hover,
+    .big-link:hover,
+    .pika-single .pika-next:hover,
+    .pika-single .pika-prev:hover,
+    .pika-single .pika-button:hover,
+    .pika-single .pika-label:hover,
+    .board-menu-navigation-item-link:hover,
+    .board-menu-section-header:hover,
+    .tabbed-pane-nav-item-button:hover,
+    .tabbed-pane-nav-item-button.active,
+    .tabbed-pane-nav-item-button.active:hover {
+        color: #FFF
+    }
+    .list-header-name {
+        color: #FFF;
+    }
+    .calendar-wrapper,
+    .big-link:hover,
+    .card-detail-item input[type=text].card-detail-badge:focus,
+    .card-detail-item-add-button:hover,
+    .card-detail-badge.is-clickable:hover,
+    .compact-board-tile-background,
+    .compact-board-tile-fade,
+    .show-more:hover,
+    .board-menu-navigation-item-link:not(.disabled):hover,
+    .button-link:hover,
+    .list-card-placeholder,
+    .list-card.placeholder {
+        background: #151515
+    }
+    .checklist-progress-bar,
+    .checklist-item-checkbox,
+    textarea:focus,
+    .list-card.active-card {
+        background-color: #151515;
+        border-color: #151515
+    }
+    .checklist-item-checkbox.enabled:hover {
+        background-color: #404040;
+        border-color: #404040
+    }
+    /*
+        body,
+        #classic-body,*/
+    .boards-drawer-header,
+    .attachment-thumbnail:hover .attachment-thumbnail-details,
+    .tabbed-pane-header,
+    .tabbed-pane-nav,
+    .tabbed-pane-main-col {
+        background-color: #202020 !important
+    }
+    .checklist-item:hover,
+    .checklist-new-item-text:hover,
+    .checklist-new-item.focus .checklist-new-item-text,
+    .checklist-new-item.focus .checklist-new-item-text:focus,
+    .checklist-new-item.focus .checklist-new-item-text:hover,
+    textarea.mod-card-back-title.is-editing,
+    textarea.mod-card-back-title:focus,
+    .button-link,
+    .card-detail-badge,
+    .helper,
+    .member-login,
+    .action-comment,
+    .card-detail-item input[type=text].card-detail-badge,
+    .card-detail-item-add-button,
+    .quiet-button:hover,
+    .comment-box-input,
+    .comment-box,
+    /*.list-card,*/
+    .pika-single .pika-next:hover,
+    .pika-single .pika-prev:hover,
+    .pika-single .pika-button:hover,
+    .pika-single .pika-label:hover,
+    .board-menu-navigation-item-link:hover,
+    .board-menu-section-header:hover,
+    .tabbed-pane-nav-item-button:hover,
+    .tabbed-pane-nav-item-button.active,
+    .tabbed-pane-nav-item-button.active:hover {
+        background-color: #202020
+    }
+    .list-card,
+    .list-header-name {
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+    .checklist-item:hover,
+    .checklist-new-item-text:hover,
+    .checklist-new-item.focus .checklist-new-item-text,
+    .checklist-new-item.focus .checklist-new-item-text:focus,
+    .checklist-new-item.focus .checklist-new-item-text:hover,
+    textarea.mod-card-back-title.is-editing,
+    textarea.mod-card-back-title:focus,
+    .button-link,
+    .card-detail-badge,
+    .helper,
+    .action-comment,
+    .card-detail-item-add-button,
+    .quiet-button:hover,
+    .comment-box-input,
+    .comment-box,
+    .list-card {
+        border-color: #202020
+    }
+    .iframe-input,
+    button,
+    input:not([type=file]),
+    textarea {
+        border-color: #303030
+    }
+    .board-menu-tab-content,
+    .iframe-input,
+    button,
+    input:not([type=file]),
+    textarea,
+    .pika-single,
+    .pika-single .pika-button,
+    .pika-single .pika-table td,
+    .board-menu,
+    .window,
+    .iframe-input.focus,
+    input[type=text]:focus,
+    input[type=password]:focus,
+    input[type=email]:focus {
+        background-color: #303030
+    }
+    .window-archive-banner {
+        background-color: #555
+    }
+    .calendar-day .calendar-card-composer,
+    .calendar-day {
+        background: #202020
+    }
+    select,
+    thead,
+    .phenom.mod-unread,
+    .button,
+    button,
+    input[type=button],
+    input[type=submit],
+    .window.mod-notifications,
+    .org-bc-settings,
+    .list-card-edit-title,
+    .list-card-edit-title:focus,
+    .boards-drawer {
+        background: #303030
+    }
+    .button:hover,
+    button:focus,
+    button:hover,
+    input[type=button]:focus,
+    input[type=button]:hover,
+    input[type=submit]:focus,
+    input[type=submit]:hover,
+    .known-service-link,
+    .compact-board-tile.selected .compact-board-tile-fade,
+    .tabbed-pane-nav-item-button,
+    .open-card-composer:hover,
+    .list-wrapper.mod-add {
+        background: #404040;
+    }
+    a.button-link.tabbed-pane-header-details-edit.js-edit-profile {
+        background-color: #404040
+    }
+    .calendar-day.today,
+    .calendar-week .calendar-day.today,
+    .day-cell.current-month .calendar-day.today {
+        background: #000
+    }
+    .calendar-table .list-card {
+        background: #151515;
+        border-bottom: none
+    }
+    #header,
+    .member-cards-board,
+    .list-wrapper.mod-add.is-idle {
+        background: #151515;
+    }
+    .pop-over.mod-notifications,
+    .pop-over {
+        background-color: #111;
+        border-color: #111
+    }
+    .known-service-link:hover {
+        background: gray
+    }
+    .card-detail-item input[type=text].card-detail-badge.is-invalid:focus {
+        background-color: #151515;
+        color: #EEE;
+    }
+    .calendar-day.active {
+        background: #060606 !important
+    }
+    .calendar-day:not(.active):hover,
+    .day-cell.current-month .calendar-day.drop,
+    .day-cell.current-month .calendar-day:not(.active):hover {
+        background: #060606
+    }
+    .calendar-week .calendar-day,
+    .day-cell.current-month .calendar-day {
+        background: #0c0c0c
+    }
+    .list-card-title,
+    .open-card-composer:hover,
+    .button-link:hover {
+        color: #FFF;
+    }
+    .compact-board-tile-background,
+    .compact-board-tile-fade {
+        opacity: 0.1
+    }
+    code,
+    pre,
+    .calendar-table,
+    .window.mod-notifications,
+    .app-alert-item.mod-error {
+        border: none
+    }
+    .card-short-id {
+        border: 1px solid #dedede !important;
+        border-bottom-color: #dedede !important;
+        color: #dedede !important
+    }
+    .button.primary,
+    button.primary,
+    input[type=button].primary,
+    input[type=submit].primary {
+        background-color: #388628;
+        color: #dedede;
+        box-shadow: 0 1px 0 #388628
+    }
+    .badge.is-due-soon,
+    .card-label-yellow {
+        background-color: #ad9900
+    }
+    .pop-over-list li>a:hover,
+    .card-label-blue {
+        background-color: #005282
+    }
+    .badge.is-due-complete,
+    .card-label-green {
+        background-color: #388628
+    }
+    .badge.is-due-now,
+    .card-detail-badge.is-due-now,
+    .button.negate,
+    button.negate,
+    .button-link.negate,
+    input[type=button].negate,
+    input[type=submit].negate,
+    .app-alert-item.mod-error,
+    .card-label-red {
+        background-color: #9c1f0e
+    }
+    .card-detail-badge.is-due-now:hover {
+        background-color: #9c1f0e;
+        filter: brightness(130%)
+    }
+    .card-label-orange {
+        background-color: #c17824
+    }
+    .card-label-purple {
+        background-color: #78149e
+    }
+    .card-label-sky {
+        background-color: #009bb3
+    }
+    .card-label-lime {
+        background-color: #00966d
+    }
+    .card-label-pink {
+        background-color: #bd468f
+    }
+    .card-detail-badge.is-due-past,
+    .badge.is-due-past {
+        background-color: #6d0d00
+    }
+    .card-detail-badge.is-due-past:hover {
+        background-color: #6d0d00;
+        filter: brightness(130%)
+    }
+    .member-initials {
+        background-color: #D6DADC;
+        border-radius: 25em;
+        height: auto
+    }
+    .list-card.is-drophover .list-card-dropzone {
+        background: rgba(0, 0, 0, 0.75)
+    }
+    .window-wrapper .is-drophover .dropzone {
+        background: rgba(0, 0, 0, 0.58);
+        border: green dashed 2px !important
+    }
+    .member-avatar:hover,
+    .member-initials:hover {
+        filter: brightness(50%)
+    }
+    .action-comment-fade-button {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #151515)
+    }
+    .compact-board-tile-background,
+    .compact-board-tile-fade {
+        opacity: 1
+    }
+    .button-link:hover,
+    .button-link {
+        box-shadow: none
+    }
+    .u-fancy-scrollbar::-webkit-scrollbar-track-piece,
+    code,
+    pre,
+    .day-cell,
+    .member,
+    .member:hover {
+        background: none
+    }
+    #board.u-fancy-scrollbar::-webkit-scrollbar-thumb:horizontal,
+    .u-fancy-scrollbar::-webkit-scrollbar-thumb:vertical {
+        background: #606060
+    }
+    body {
+        background: url("http://subtlepatterns.com/patterns/binding_dark.png") repeat transparent !important
+    }
+    textarea,
+    .action-comment,
+    .list-card,
+    .card-detail-desc p {
+        font-size: 16px !important;
+        line-height: 1.2 !important
+    }
+    .list {
+        background: rgba(0, 0, 0, 0.2);
+        border: 1.5px dashed rgba(255, 255, 255, 0.4)
+    }
+    .list-header,
+    .card-label {
+        text-align: center
+    }
+    .badge-text {
+        float: none !important;
+        color: #FFF;
+    }
+    .list-card-operation {
+        opacity: 0.5;
+        width: 16px !important
+    }
+    .button-link:hover {
+        background: #444 !important;
+        border-color: #111 !important
+    }
+    .js-archive-card:hover {
+        background: tomato !important;
+        border-color: red !important
+    }
+    .js-open-add-list:before,
+    .open-card-composer:before {
+        font-size: 1rem
+    }
+    /*.list-card {
+            background-color: #333339 !important;
+            color: #EEE !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5) !important;
+            border-right: 1px solid rgba(0, 0, 0, 0.2) !important;
+            border-width: 2px !important;
+            border-radius: 0 3px
+        }*/
+    .list-card a,
+    .js-checkitem-name {
+        color: #EEE
+    }
+}
