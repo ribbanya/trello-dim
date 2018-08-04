@@ -1,16 +1,20 @@
 @-moz-document domain("trello.com") {
-    /*.tabbed-pane-nav-item-button,
-        .checklist-new-item.focus .checklist-new-item-text,
-        .checklist-new-item.focus .checklist-new-item-text:focus,
-        .checklist-new-item.focus .checklist-new-item-text:hover,
-        .compact-board-tile-link-text-sub-name,
-        .pop-over-header-title,
-        .dialog-close-button,
-        body,
-        button,
-        html,
-        input,
-        select,*/
+    @namespace url(http://www.w3.org/1999/xhtml);
+    * {
+        transition: all .2s ease-out !important
+    }
+    .tabbed-pane-nav-item-button,
+    .checklist-new-item.focus .checklist-new-item-text,
+    .checklist-new-item.focus .checklist-new-item-text:focus,
+    .checklist-new-item.focus .checklist-new-item-text:hover,
+    .compact-board-tile-link-text-sub-name,
+    .pop-over-header-title,
+    .dialog-close-button,
+    body,
+    button,
+    html,
+    input,
+    select,
     textarea,
     a,
     .card-detail-item input[type=text].card-detail-badge:focus,
@@ -25,10 +29,10 @@
     .tabbed-pane-nav-item-button:hover,
     .tabbed-pane-nav-item-button.active,
     .tabbed-pane-nav-item-button.active:hover {
-        color: #FFF
+        color: #EEE
     }
     .list-header-name {
-        color: #FFF;
+        color: #EEE;
     }
     .calendar-wrapper,
     .big-link:hover,
@@ -55,9 +59,6 @@
         background-color: #404040;
         border-color: #404040
     }
-    /*
-        body,
-        #classic-body,*/
     .boards-drawer-header,
     .attachment-thumbnail:hover .attachment-thumbnail-details,
     .tabbed-pane-header,
@@ -73,7 +74,7 @@
     textarea.mod-card-back-title.is-editing,
     textarea.mod-card-back-title:focus,
     .button-link,
-    .card-detail-badge,
+    .card-detail-badge:not(.js-custom-field-detail-badge),
     .helper,
     .member-login,
     .action-comment,
@@ -93,6 +94,10 @@
     .tabbed-pane-nav-item-button.active,
     .tabbed-pane-nav-item-button.active:hover {
         background-color: #202020
+    }
+    /*field-color-black field-color-red etc.*/
+    .js-custom-field-detail-badge {
+        filter: brightness(90%);
     }
     .list-card,
     .list-header-name {
@@ -145,7 +150,7 @@
     .calendar-day {
         background: #202020
     }
-    select,
+    select:not(.js-custom-field-detail-badge),
     thead,
     .phenom.mod-unread,
     .button,
@@ -217,7 +222,7 @@
     .list-card-title,
     .open-card-composer:hover,
     .button-link:hover {
-        color: #FFF;
+        color: #EEE;
     }
     .compact-board-tile-background,
     .compact-board-tile-fade {
@@ -332,9 +337,6 @@
     .u-fancy-scrollbar::-webkit-scrollbar-thumb:vertical {
         background: #606060
     }
-    body {
-        background: url("http://subtlepatterns.com/patterns/binding_dark.png") repeat transparent !important
-    }
     textarea,
     .action-comment,
     .list-card,
@@ -352,7 +354,7 @@
     }
     .badge-text {
         float: none !important;
-        color: #FFF;
+        color: #EEE;
     }
     .list-card-operation {
         opacity: 0.5;
