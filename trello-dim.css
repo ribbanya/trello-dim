@@ -79,7 +79,6 @@
     .quiet-button:hover,
     .comment-box-input,
     .comment-box,
-    /*.list-card,*/
     .pika-single .pika-next:hover,
     .pika-single .pika-prev:hover,
     .pika-single .pika-button:hover,
@@ -137,7 +136,7 @@
     input[type=text]:focus,
     input[type=password]:focus,
     input[type=email]:focus {
-        background-color: #303030
+        background-color: #303030 !important;
     }
     .window-archive-banner {
         background-color: #555
@@ -245,15 +244,18 @@
         box-shadow: 0 1px 0 #388628
     }
     .badge.is-due-soon,
-    .card-label-yellow {
+    .card-label-yellow,
+    .field-color-yellow {
         background-color: #ad9900
     }
     .pop-over-list li>a:hover,
-    .card-label-blue {
+    .card-label-blue,
+    .field-color-blue {
         background-color: #005282
     }
     .badge.is-due-complete,
-    .card-label-green {
+    .card-label-green,
+    .field-color-green {
         background-color: #388628
     }
     .badge.is-due-now,
@@ -264,26 +266,32 @@
     input[type=button].negate,
     input[type=submit].negate,
     .app-alert-item.mod-error,
-    .card-label-red {
+    .card-label-red,
+    .field-color-red {
         background-color: #9c1f0e
     }
     .card-detail-badge.is-due-now:hover {
         background-color: #9c1f0e;
         filter: brightness(130%)
     }
-    .card-label-orange {
+    .card-label-orange,
+    .field-color-orange {
         background-color: #c17824
     }
-    .card-label-purple {
+    .card-label-purple,
+    .field-color-purple {
         background-color: #78149e
     }
-    .card-label-sky {
+    .card-label-sky,
+    .field-color-sky {
         background-color: #009bb3
     }
-    .card-label-lime {
+    .card-label-lime,
+    .field-color-lime {
         background-color: #00966d
     }
-    .card-label-pink {
+    .card-label-pink,
+    .field-color-pink {
         background-color: #bd468f
     }
     .card-detail-badge.is-due-past,
