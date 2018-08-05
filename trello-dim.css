@@ -1,5 +1,4 @@
-@-moz-document domain("trello.com") {
-    @namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document regexp("https?://trello.com/b/.*") {
     * {
         transition: all .2s ease-out !important
     }
@@ -28,7 +27,8 @@
     .board-menu-section-header:hover,
     .tabbed-pane-nav-item-button:hover,
     .tabbed-pane-nav-item-button.active,
-    .tabbed-pane-nav-item-button.active:hover {
+    .tabbed-pane-nav-item-button.active:hover,
+    .directory-listing-powerup span {
         color: #EEE
     }
     .list-header-name {
@@ -45,7 +45,9 @@
     .board-menu-navigation-item-link:not(.disabled):hover,
     .button-link:hover,
     .list-card-placeholder,
-    .list-card.placeholder {
+    .list-card.placeholder,
+    .directory-listing-powerup div,
+    .directory-header-toolbar {
         background: #151515
     }
     .checklist-progress-bar,
@@ -63,8 +65,9 @@
     .attachment-thumbnail:hover .attachment-thumbnail-details,
     .tabbed-pane-header,
     .tabbed-pane-nav,
-    .tabbed-pane-main-col {
-        background-color: #202020 !important
+    .tabbed-pane-main-col,
+    .directory-wrapper {
+        background-color: #202020
     }
     .checklist-item:hover,
     .checklist-new-item-text:hover,
@@ -191,8 +194,7 @@
         border-bottom: none
     }
     #header,
-    .member-cards-board,
-    .list-wrapper.mod-add.is-idle {
+    .member-cards-board {
         background: #151515;
     }
     .pop-over.mod-notifications,
