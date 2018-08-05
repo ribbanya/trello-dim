@@ -2,7 +2,6 @@
     * {
         transition: all .2s ease-out !important
     }
-    }
     .tabbed-pane-nav-item-button,
     .checklist-new-item.focus .checklist-new-item-text,
     .checklist-new-item.focus .checklist-new-item-text:focus,
