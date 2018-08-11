@@ -1,4 +1,4 @@
-@-moz-document regexp("https?://trello.com/b/.*") {
+@-moz-document regexp("https?://trello.com/[bc]/.*") {
     * {
         transition: all .2s ease-out !important
     }
